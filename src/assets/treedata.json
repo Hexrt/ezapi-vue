@@ -1,0 +1,600 @@
+{
+    "code": 1,
+    "message": "success",
+    "data": {
+        "datasource": {
+            "node": {
+                "properties": {},
+                "id": "0",
+                "name": "root",
+                "type": null,
+                "parentId": null,
+                "path": null,
+                "createTime": null,
+                "updateTime": null,
+                "createBy": null,
+                "updateBy": null,
+                "paths": [],
+                "options": []
+            },
+            "children": [
+                {
+                    "node": {
+                        "properties": {},
+                        "id": "datasource:0",
+                        "name": null,
+                        "type": "datasource",
+                        "parentId": "0",
+                        "path": null,
+                        "createTime": null,
+                        "updateTime": null,
+                        "createBy": null,
+                        "updateBy": null,
+                        "paths": [],
+                        "options": []
+                    },
+                    "children": [
+                        {
+                            "node": {
+                                "properties": {},
+                                "id": "1c71de57224a4fc693946e25c9be0740",
+                                "script": null,
+                                "groupId": "datasource:0",
+                                "name": "测试SQLSERVER",
+                                "createTime": 1682010560282,
+                                "updateTime": null,
+                                "lock": null,
+                                "createBy": null,
+                                "updateBy": null,
+                                "url": null,
+                                "username": null,
+                                "password": null,
+                                "key": "SQLSERVER",
+                                "maxRows": -1,
+                                "driverClassName": null,
+                                "type": null
+                            },
+                            "children": []
+                        },
+                        {
+                            "node": {
+                                "properties": {},
+                                "id": "47d2bbc5fc0f42f08d69ab77b9304d37",
+                                "script": null,
+                                "groupId": "datasource:0",
+                                "name": "测试PostgreSQL",
+                                "createTime": 1682010675700,
+                                "updateTime": null,
+                                "lock": null,
+                                "createBy": null,
+                                "updateBy": null,
+                                "url": null,
+                                "username": null,
+                                "password": null,
+                                "key": "post",
+                                "maxRows": -1,
+                                "driverClassName": null,
+                                "type": null
+                            },
+                            "children": []
+                        },
+                        {
+                            "node": {
+                                "properties": {},
+                                "id": "6de2bdfc5a934abf8d7837ac6d719716",
+                                "script": null,
+                                "groupId": "datasource:0",
+                                "name": "新的数据库",
+                                "createTime": 1681973529613,
+                                "updateTime": 1682001605938,
+                                "lock": null,
+                                "createBy": null,
+                                "updateBy": null,
+                                "url": null,
+                                "username": null,
+                                "password": null,
+                                "key": "data_2",
+                                "maxRows": -1,
+                                "driverClassName": null,
+                                "type": null
+                            },
+                            "children": []
+                        },
+                        {
+                            "node": {
+                                "properties": {},
+                                "id": null,
+                                "script": null,
+                                "groupId": null,
+                                "name": "默认数据源",
+                                "createTime": null,
+                                "updateTime": null,
+                                "lock": null,
+                                "createBy": null,
+                                "updateBy": null,
+                                "url": null,
+                                "username": null,
+                                "password": null,
+                                "key": "",
+                                "maxRows": -1,
+                                "driverClassName": null,
+                                "type": null
+                            },
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        "function": {
+            "node": {
+                "properties": {},
+                "id": "0",
+                "name": "root",
+                "type": null,
+                "parentId": null,
+                "path": null,
+                "createTime": null,
+                "updateTime": null,
+                "createBy": null,
+                "updateBy": null,
+                "paths": [],
+                "options": []
+            },
+            "children": [
+                {
+                    "node": {
+                        "properties": {},
+                        "id": "4685b1b6e10347ed9444f8479dcaca82",
+                        "name": "通用函数分组",
+                        "type": "function",
+                        "parentId": "0",
+                        "path": "/function",
+                        "createTime": 1680112379096,
+                        "updateTime": null,
+                        "createBy": null,
+                        "updateBy": null,
+                        "paths": [],
+                        "options": []
+                    },
+                    "children": [
+                        {
+                            "node": {
+                                "properties": {},
+                                "id": "4dc80f6400644dfbaf754a3d82fe0683",
+                                "script": null,
+                                "groupId": "4685b1b6e10347ed9444f8479dcaca82",
+                                "name": "比较",
+                                "createTime": null,
+                                "updateTime": 1680147416466,
+                                "lock": null,
+                                "createBy": null,
+                                "updateBy": null,
+                                "path": "compare",
+                                "description": null,
+                                "returnType": null,
+                                "mappingPath": null,
+                                "parameters": []
+                            },
+                            "children": []
+                        },
+                        {
+                            "node": {
+                                "properties": {},
+                                "id": "c92b2b0f52da4f10a8f518093729f57c",
+                                "script": null,
+                                "groupId": "4685b1b6e10347ed9444f8479dcaca82",
+                                "name": "获取关键字",
+                                "createTime": null,
+                                "updateTime": 1680147218939,
+                                "lock": null,
+                                "createBy": null,
+                                "updateBy": null,
+                                "path": "/getKeyWord",
+                                "description": null,
+                                "returnType": null,
+                                "mappingPath": null,
+                                "parameters": []
+                            },
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        "api": {
+            "node": {
+                "properties": {},
+                "id": "0",
+                "name": "root",
+                "type": null,
+                "parentId": null,
+                "path": null,
+                "createTime": null,
+                "updateTime": null,
+                "createBy": null,
+                "updateBy": null,
+                "paths": [],
+                "options": []
+            },
+            "children": [
+                {
+                    "node": {
+                        "properties": {},
+                        "id": "13ef2f98585640388b3b1341c2aa95a3",
+                        "name": "图片接口",
+                        "type": "api",
+                        "parentId": "0",
+                        "path": "/image",
+                        "createTime": 1680110946149,
+                        "updateTime": null,
+                        "createBy": null,
+                        "updateBy": null,
+                        "paths": [],
+                        "options": []
+                    },
+                    "children": [
+                        {
+                            "node": {
+                                "properties": {},
+                                "id": "e1c9efb14b604029a5fa1400721f45eb",
+                                "script": null,
+                                "groupId": "13ef2f98585640388b3b1341c2aa95a3",
+                                "name": "获取验证码",
+                                "createTime": null,
+                                "updateTime": 1680147636507,
+                                "lock": null,
+                                "createBy": null,
+                                "updateBy": null,
+                                "path": "/verification-code",
+                                "method": "GET",
+                                "parameters": [],
+                                "options": [],
+                                "requestBody": null,
+                                "headers": [],
+                                "paths": [],
+                                "responseBody": null,
+                                "description": null,
+                                "requestBodyDefinition": null,
+                                "responseBodyDefinition": null
+                            },
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "node": {
+                        "properties": {},
+                        "id": "9a968ff626df4f6e99c4f05d93f79df2",
+                        "name": "通用函数方法接口",
+                        "type": "api",
+                        "parentId": "0",
+                        "path": "/function",
+                        "createTime": 1680111113166,
+                        "updateTime": null,
+                        "createBy": null,
+                        "updateBy": null,
+                        "paths": [],
+                        "options": []
+                    },
+                    "children": [
+                        {
+                            "node": {
+                                "properties": {},
+                                "id": "7c0b851afcdf48a6a68a25f2f3eef210",
+                                "script": null,
+                                "groupId": "9a968ff626df4f6e99c4f05d93f79df2",
+                                "name": "排序",
+                                "createTime": null,
+                                "updateTime": 1680147461726,
+                                "lock": null,
+                                "createBy": null,
+                                "updateBy": null,
+                                "path": "/sort",
+                                "method": "POST",
+                                "parameters": [],
+                                "options": [],
+                                "requestBody": null,
+                                "headers": [],
+                                "paths": [],
+                                "responseBody": null,
+                                "description": null,
+                                "requestBodyDefinition": null,
+                                "responseBodyDefinition": null
+                            },
+                            "children": []
+                        },
+                        {
+                            "node": {
+                                "properties": {},
+                                "id": "c0459d6ab5784e68930b11076166219f",
+                                "script": null,
+                                "groupId": "9a968ff626df4f6e99c4f05d93f79df2",
+                                "name": "逆转",
+                                "createTime": null,
+                                "updateTime": 1680147596889,
+                                "lock": null,
+                                "createBy": null,
+                                "updateBy": null,
+                                "path": "/reverse",
+                                "method": "POST",
+                                "parameters": [],
+                                "options": [],
+                                "requestBody": null,
+                                "headers": [],
+                                "paths": [],
+                                "responseBody": null,
+                                "description": null,
+                                "requestBodyDefinition": null,
+                                "responseBodyDefinition": null
+                            },
+                            "children": []
+                        },
+                        {
+                            "node": {
+                                "properties": {},
+                                "id": "36bb70ba2bd44dae8f3b780941b155c2",
+                                "script": null,
+                                "groupId": "9a968ff626df4f6e99c4f05d93f79df2",
+                                "name": "通用双目运算符",
+                                "createTime": null,
+                                "updateTime": 1680111806150,
+                                "lock": null,
+                                "createBy": null,
+                                "updateBy": null,
+                                "path": "/operator",
+                                "method": "POST",
+                                "parameters": [],
+                                "options": [],
+                                "requestBody": null,
+                                "headers": [],
+                                "paths": [],
+                                "responseBody": null,
+                                "description": null,
+                                "requestBodyDefinition": null,
+                                "responseBodyDefinition": null
+                            },
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "node": {
+                        "properties": {},
+                        "id": "f97697870d2f451fbca406126aa0b7bf",
+                        "name": "测试分组",
+                        "type": "api",
+                        "parentId": "0",
+                        "path": "/test",
+                        "createTime": 1680075251678,
+                        "updateTime": 1680110913117,
+                        "createBy": null,
+                        "updateBy": null,
+                        "paths": [],
+                        "options": []
+                    },
+                    "children": [
+                        {
+                            "node": {
+                                "properties": {},
+                                "id": "a4b4912a6e8348ba9020cb317d28ed47",
+                                "name": "再度测试名称",
+                                "type": "api",
+                                "parentId": "f97697870d2f451fbca406126aa0b7bf",
+                                "path": "/again",
+                                "createTime": 1682008483840,
+                                "updateTime": null,
+                                "createBy": null,
+                                "updateBy": null,
+                                "paths": [],
+                                "options": []
+                            },
+                            "children": [
+                                {
+                                    "node": {
+                                        "properties": {},
+                                        "id": "570a7eb516634a3cb29410ec713a6693",
+                                        "name": "134123",
+                                        "type": "api",
+                                        "parentId": "a4b4912a6e8348ba9020cb317d28ed47",
+                                        "path": "/tsetset",
+                                        "createTime": 1682010043422,
+                                        "updateTime": null,
+                                        "createBy": null,
+                                        "updateBy": null,
+                                        "paths": [],
+                                        "options": []
+                                    },
+                                    "children": []
+                                },
+                                {
+                                    "node": {
+                                        "properties": {},
+                                        "id": "5ce1cf38c3c545a2b6315c077b6a6000",
+                                        "name": "1231231",
+                                        "type": "api",
+                                        "parentId": "a4b4912a6e8348ba9020cb317d28ed47",
+                                        "path": "/testtest",
+                                        "createTime": 1682010084734,
+                                        "updateTime": null,
+                                        "createBy": null,
+                                        "updateBy": null,
+                                        "paths": [],
+                                        "options": []
+                                    },
+                                    "children": []
+                                },
+                                {
+                                    "node": {
+                                        "properties": {},
+                                        "id": "79c58f189cd64b3fb712f71c9b8cb123",
+                                        "name": "123123123",
+                                        "type": "api",
+                                        "parentId": "a4b4912a6e8348ba9020cb317d28ed47",
+                                        "path": "/testest",
+                                        "createTime": 1682010099820,
+                                        "updateTime": null,
+                                        "createBy": null,
+                                        "updateBy": null,
+                                        "paths": [],
+                                        "options": []
+                                    },
+                                    "children": []
+                                }
+                            ]
+                        },
+                        {
+                            "node": {
+                                "properties": {},
+                                "id": "63c0286a7d974136b1822220fa6bc949",
+                                "script": null,
+                                "groupId": "f97697870d2f451fbca406126aa0b7bf",
+                                "name": "A减B",
+                                "createTime": null,
+                                "updateTime": 1681712295098,
+                                "lock": null,
+                                "createBy": null,
+                                "updateBy": null,
+                                "path": "/down",
+                                "method": "GET",
+                                "parameters": [],
+                                "options": [],
+                                "requestBody": null,
+                                "headers": [],
+                                "paths": [],
+                                "responseBody": null,
+                                "description": null,
+                                "requestBodyDefinition": null,
+                                "responseBodyDefinition": null
+                            },
+                            "children": []
+                        },
+                        {
+                            "node": {
+                                "properties": {},
+                                "id": "ab85c3d42b7842c58010ae8fbb993537",
+                                "script": null,
+                                "groupId": "f97697870d2f451fbca406126aa0b7bf",
+                                "name": "尽量全",
+                                "createTime": null,
+                                "updateTime": 1681881991948,
+                                "lock": null,
+                                "createBy": null,
+                                "updateBy": null,
+                                "path": "/ceshi",
+                                "method": "GET",
+                                "parameters": [],
+                                "options": [],
+                                "requestBody": null,
+                                "headers": [],
+                                "paths": [],
+                                "responseBody": null,
+                                "description": null,
+                                "requestBodyDefinition": null,
+                                "responseBodyDefinition": null
+                            },
+                            "children": []
+                        },
+                        {
+                            "node": {
+                                "properties": {},
+                                "id": "8bf3886c86794626bb00a3a3a3c27319",
+                                "script": null,
+                                "groupId": "f97697870d2f451fbca406126aa0b7bf",
+                                "name": "A加B",
+                                "createTime": null,
+                                "updateTime": 1681568911698,
+                                "lock": null,
+                                "createBy": null,
+                                "updateBy": null,
+                                "path": "/plus",
+                                "method": "GET",
+                                "parameters": [],
+                                "options": [],
+                                "requestBody": null,
+                                "headers": [],
+                                "paths": [],
+                                "responseBody": null,
+                                "description": null,
+                                "requestBodyDefinition": null,
+                                "responseBodyDefinition": null
+                            },
+                            "children": []
+                        },
+                        {
+                            "node": {
+                                "properties": {},
+                                "id": "b0f4b6b9c38c4095b726a442212e2dca",
+                                "script": null,
+                                "groupId": "f97697870d2f451fbca406126aa0b7bf",
+                                "name": "cece",
+                                "createTime": 1681833301779,
+                                "updateTime": null,
+                                "lock": null,
+                                "createBy": null,
+                                "updateBy": null,
+                                "path": "/test",
+                                "method": "GET",
+                                "parameters": [],
+                                "options": [],
+                                "requestBody": null,
+                                "headers": [],
+                                "paths": [],
+                                "responseBody": null,
+                                "description": null,
+                                "requestBodyDefinition": null,
+                                "responseBodyDefinition": null
+                            },
+                            "children": []
+                        },
+                        {
+                            "node": {
+                                "properties": {},
+                                "id": "912c2b001a2c45c7ba234452d001160a",
+                                "script": null,
+                                "groupId": "f97697870d2f451fbca406126aa0b7bf",
+                                "name": "WTF",
+                                "createTime": null,
+                                "updateTime": 1681897196434,
+                                "lock": null,
+                                "createBy": null,
+                                "updateBy": null,
+                                "path": "/wtf",
+                                "method": "GET",
+                                "parameters": [],
+                                "options": [],
+                                "requestBody": null,
+                                "headers": [],
+                                "paths": [],
+                                "responseBody": null,
+                                "description": null,
+                                "requestBodyDefinition": null,
+                                "responseBodyDefinition": null
+                            },
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "node": {
+                        "properties": {},
+                        "id": "8c1b4f503cf5489cb300c7a8305ff12e",
+                        "name": "werawera",
+                        "type": "api",
+                        "parentId": "0",
+                        "path": "/WTF",
+                        "createTime": 1682010379517,
+                        "updateTime": null,
+                        "createBy": null,
+                        "updateBy": null,
+                        "paths": [],
+                        "options": []
+                    },
+                    "children": []
+                }
+            ]
+        }
+    },
+    "timestamp": 1682011690317,
+    "executeTime": null
+}
